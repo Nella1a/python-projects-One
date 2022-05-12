@@ -1,5 +1,6 @@
 from selenium import webdriver
-import time
+
+
 
 
 def open_webdriver():
@@ -19,15 +20,22 @@ def get_new_Arrival(driver):
   section_title = driver.find_element(by="xpath",value="/html/body/main/article/div[2]/section/div/h2")
   print(section_title.text)
   new_arrivals = driver.find_element(by="xpath", value="/html/body/main/article/div[2]/section/div/div")
-  print(new_arrivals.text)
-  print(type(new_arrivals.text))
+  return new_arrivals.text
+  
+
+def write_file(products):
+  file = open("ecommercefile.txt","w")
+  file.write(products)
+  file.close()
 
 
 def main():
   driver = open_webdriver()
   page_title = driver.title
   print(page_title)
-  get_new_Arrival(driver)
+  products = get_new_Arrival(driver)
+  write_file(products)
+  print(products)
 
 
 main()
