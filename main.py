@@ -1,3 +1,5 @@
+# scrape ecommerce store with selenium, get product details (name, product title, price etc) and save in file; stretch: use filter, get products for women
+
 from selenium import webdriver
 
 
