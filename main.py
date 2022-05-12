@@ -1,8 +1,6 @@
 from selenium import webdriver
 
 
-
-
 def open_webdriver():
   # open Chrome and navigate to url 
   options = webdriver.ChromeOptions()
@@ -17,6 +15,7 @@ def open_webdriver():
   return driver
 
 def get_new_Arrival(driver):
+  # get product details (name, title, price)
   section_title = driver.find_element(by="xpath",value="/html/body/main/article/div[2]/section/div/h2")
   print(section_title.text)
   new_arrivals = driver.find_element(by="xpath", value="/html/body/main/article/div[2]/section/div/div")
@@ -24,6 +23,7 @@ def get_new_Arrival(driver):
   
 
 def write_file(products):
+  # save product details in file
   file = open("ecommercefile.txt","w")
   file.write(products)
   file.close()
