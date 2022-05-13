@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 
 def get_currency(in_currency, out_currency):
-  # get url with currency request, get response, find currency and print only the integer
+  # get url with currency request, get response, find currency and print only float
   url = f"https://www.x-rates.com/calculator/?from={in_currency}&to={out_currency}&amount=1"
   resp = requests.get(url).text
   soup = BeautifulSoup(resp, "html.parser")
