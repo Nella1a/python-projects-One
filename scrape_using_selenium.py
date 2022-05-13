@@ -26,12 +26,12 @@ def get_new_Arrival(driver):
 
 def write_file(products):
   # save product details in file
-  file = open("ecommercefile.txt","w")
+  file = open("ecommercefile1.txt","w")
   file.write(products)
   file.close()
 
 
-def main():
+def main_selenium():
   driver = open_webdriver()
   page_title = driver.title
   print(page_title)
@@ -40,5 +40,5 @@ def main():
   print(products)
 
 
-main()
+
 

@@ -11,8 +11,10 @@ def get_currency(in_currency, out_currency):
   rate = float(rate.split(" ")[0]) # different option: rate[: -4]
   return rate
 
-current_rate = get_currency("JPY","USD")
-print(current_rate)
+def main_bsoup():
+  current_rate = get_currency("JPY","USD")
+  print(current_rate)
+
 
 
 # https://developers.google.com/adsense/management/appendix/currencies.csv
