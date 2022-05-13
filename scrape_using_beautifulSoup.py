@@ -7,8 +7,8 @@ def get_currency(in_currency, out_currency):
 
   resp = requests.get(url).text
   soup = BeautifulSoup(resp, "html.parser")
-  output = soup.select(".ccOutputRslt")
-  print(output)
+  currency = soup.find("span",class_="ccOutputRslt").get_text()
+  print(currency)
 
 
 
