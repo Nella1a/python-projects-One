@@ -1,7 +1,10 @@
 # scrape ecommerce store with selenium, get product details (name, product title, price etc) and save in file; stretch: use filter, get products for women
 
-from selenium import webdriver
+import scrape_using_beautifulSoup
 
+
+"""
+from selenium import webdriver
 
 def open_webdriver():
   # open Chrome and navigate to url 
@@ -41,3 +44,5 @@ def main():
 
 
 main()
+
+"""
