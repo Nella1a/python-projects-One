@@ -1,8 +1,9 @@
 #import main() from scrape_using_beautifulSoup
-from scrape_using_beautifulSoup import main_bsoup
-from scrape_using_selenium import main_selenium
-#from rest_apis_in_python import main_api
-
+# from scrape_using_beautifulSoup import main_bsoup
+# from scrape_using_selenium import main_selenium
+# from rest_apis_in_python import main_api
+import rest_apis_in_python
+"""
 
 file = input("Choose file: \nPress a: Scrape ecommerce store using Selenium \nPress b: Scrape realtime currency using BeautifulSoup \nPress c: Working with REST API\n ->> your choice: ")
 
@@ -16,4 +17,4 @@ elif file == "b":
 else: 
   print("no file selected")
 
-  
+"""
