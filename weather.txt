@@ -1,161 +1,42 @@
 City,Time,Temperature,Condition
-London,2022-05-15 00:00:00,14.51,Bedeckt
 
-London,2022-05-15 03:00:00,13.84,Bedeckt
-
-London,2022-05-15 06:00:00,13.56,Leichter Regen
-
-London,2022-05-15 09:00:00,18.65,Bedeckt
-
-London,2022-05-15 12:00:00,20.92,Bedeckt
-
-London,2022-05-15 15:00:00,17.73,Bedeckt
-
-London,2022-05-15 18:00:00,16.51,Leichter Regen
-
-London,2022-05-15 21:00:00,14.84,Leichter Regen
-
-London,2022-05-16 00:00:00,14.99,Leichter Regen
-
-London,2022-05-16 03:00:00,14.94,Leichter Regen
-
-London,2022-05-16 06:00:00,15.01,Leichter Regen
-
-London,2022-05-16 09:00:00,16.34,Bedeckt
-
-London,2022-05-16 12:00:00,20.22,Bedeckt
-
-London,2022-05-16 15:00:00,21.15,Überwiegend bewölkt
-
-London,2022-05-16 18:00:00,18.77,Überwiegend bewölkt
-
-London,2022-05-16 21:00:00,15.26,Überwiegend bewölkt
-
-London,2022-05-17 00:00:00,13.08,Überwiegend bewölkt
-
-London,2022-05-17 03:00:00,11.93,Mäßig bewölkt
-
-London,2022-05-17 06:00:00,13.76,Mäßig bewölkt
-
-London,2022-05-17 09:00:00,19.15,Klarer Himmel
-
-London,2022-05-17 12:00:00,23.21,Klarer Himmel
-
-London,2022-05-17 15:00:00,24.28,Überwiegend bewölkt
-
-London,2022-05-17 18:00:00,21.48,Überwiegend bewölkt
-
-London,2022-05-17 21:00:00,18.52,Überwiegend bewölkt
-
-London,2022-05-18 00:00:00,16.33,Mäßig bewölkt
-
-London,2022-05-18 03:00:00,14.88,Überwiegend bewölkt
-
-London,2022-05-18 06:00:00,16.32,Überwiegend bewölkt
-
-London,2022-05-18 09:00:00,21.11,Bedeckt
-
-London,2022-05-18 12:00:00,24.9,Bedeckt
-
-London,2022-05-18 15:00:00,24.71,Leichter Regen
-
-London,2022-05-18 18:00:00,23.35,Leichter Regen
-
-London,2022-05-18 21:00:00,19.37,Leichter Regen
-
-London,2022-05-19 00:00:00,18.35,Leichter Regen
-
-London,2022-05-19 03:00:00,17.36,Leichter Regen
-
-London,2022-05-19 06:00:00,16.77,Bedeckt
-
-London,2022-05-19 09:00:00,17.36,Bedeckt
-
-London,2022-05-19 12:00:00,22.35,Überwiegend bewölkt
-
-London,2022-05-19 15:00:00,23.54,Klarer Himmel
-
-London,2022-05-19 18:00:00,20.63,Mäßig bewölkt
-
-London,2022-05-19 21:00:00,16.07,Mäßig bewölkt
-
-Barcelona,2022-05-15 00:00:00,19.82,clear sky
-
-Barcelona,2022-05-15 03:00:00,19.68,scattered clouds
-
-Barcelona,2022-05-15 06:00:00,20.06,broken clouds
-
-Barcelona,2022-05-15 09:00:00,23.06,broken clouds
-
-Barcelona,2022-05-15 12:00:00,24.26,scattered clouds
-
-Barcelona,2022-05-15 15:00:00,23.76,scattered clouds
-
-Barcelona,2022-05-15 18:00:00,21.98,scattered clouds
-
-Barcelona,2022-05-15 21:00:00,21,overcast clouds
-
-Barcelona,2022-05-16 00:00:00,20.11,broken clouds
-
-Barcelona,2022-05-16 03:00:00,19.86,broken clouds
-
-Barcelona,2022-05-16 06:00:00,20.24,scattered clouds
-
-Barcelona,2022-05-16 09:00:00,22.94,overcast clouds
-
-Barcelona,2022-05-16 12:00:00,23.94,overcast clouds
-
-Barcelona,2022-05-16 15:00:00,23.53,overcast clouds
-
-Barcelona,2022-05-16 18:00:00,22.35,overcast clouds
-
-Barcelona,2022-05-16 21:00:00,21.35,overcast clouds
-
-Barcelona,2022-05-17 00:00:00,20.75,overcast clouds
-
-Barcelona,2022-05-17 03:00:00,20.09,broken clouds
-
-Barcelona,2022-05-17 06:00:00,20.49,scattered clouds
-
-Barcelona,2022-05-17 09:00:00,23.52,clear sky
-
-Barcelona,2022-05-17 12:00:00,25.17,clear sky
-
-Barcelona,2022-05-17 15:00:00,24.81,scattered clouds
-
-Barcelona,2022-05-17 18:00:00,23.07,few clouds
-
-Barcelona,2022-05-17 21:00:00,22.13,clear sky
-
-Barcelona,2022-05-18 00:00:00,21.87,clear sky
-
-Barcelona,2022-05-18 03:00:00,21.49,clear sky
-
-Barcelona,2022-05-18 06:00:00,22.35,clear sky
-
-Barcelona,2022-05-18 09:00:00,24.95,broken clouds
-
-Barcelona,2022-05-18 12:00:00,25.88,broken clouds
-
-Barcelona,2022-05-18 15:00:00,26.1,broken clouds
-
-Barcelona,2022-05-18 18:00:00,24.51,scattered clouds
-
-Barcelona,2022-05-18 21:00:00,22.46,few clouds
-
-Barcelona,2022-05-19 00:00:00,22.01,scattered clouds
-
-Barcelona,2022-05-19 03:00:00,21.19,clear sky
-
-Barcelona,2022-05-19 06:00:00,20.74,clear sky
-
-Barcelona,2022-05-19 09:00:00,23.24,clear sky
-
-Barcelona,2022-05-19 12:00:00,23.88,clear sky
-
-Barcelona,2022-05-19 15:00:00,23.59,broken clouds
-
-Barcelona,2022-05-19 18:00:00,22.41,broken clouds
-
-Barcelona,2022-05-19 21:00:00,21.22,overcast clouds
-
+Wien,2022-05-16 09:00:00,21.87,Klarer Himmel
+Wien,2022-05-16 12:00:00,22.99,Ein paar Wolken
+Wien,2022-05-16 15:00:00,24.12,Überwiegend bewölkt
+Wien,2022-05-16 18:00:00,21.22,Überwiegend bewölkt
+Wien,2022-05-16 21:00:00,17.8,Leichter Regen
+Wien,2022-05-17 00:00:00,16.79,Leichter Regen
+Wien,2022-05-17 03:00:00,16.6,Bedeckt
+Wien,2022-05-17 06:00:00,17.22,Bedeckt
+Wien,2022-05-17 09:00:00,22.13,Überwiegend bewölkt
+Wien,2022-05-17 12:00:00,17.18,Leichter Regen
+Wien,2022-05-17 15:00:00,16.18,Leichter Regen
+Wien,2022-05-17 18:00:00,15.38,Bedeckt
+Wien,2022-05-17 21:00:00,13.76,Überwiegend bewölkt
+Wien,2022-05-18 00:00:00,12.58,Überwiegend bewölkt
+Wien,2022-05-18 03:00:00,11.4,Überwiegend bewölkt
+Wien,2022-05-18 06:00:00,15.01,Mäßig bewölkt
+Wien,2022-05-18 09:00:00,18.94,Klarer Himmel
+Wien,2022-05-18 12:00:00,21.42,Ein paar Wolken
+Wien,2022-05-18 15:00:00,21.82,Ein paar Wolken
+Wien,2022-05-18 18:00:00,17.3,Klarer Himmel
+Wien,2022-05-18 21:00:00,13.75,Klarer Himmel
+Wien,2022-05-19 00:00:00,12.43,Klarer Himmel
+Wien,2022-05-19 03:00:00,11.51,Klarer Himmel
+Wien,2022-05-19 06:00:00,15.15,Klarer Himmel
+Wien,2022-05-19 09:00:00,19.98,Klarer Himmel
+Wien,2022-05-19 12:00:00,23.1,Ein paar Wolken
+Wien,2022-05-19 15:00:00,23.35,Mäßig bewölkt
+Wien,2022-05-19 18:00:00,19.32,Überwiegend bewölkt
+Wien,2022-05-19 21:00:00,16.44,Bedeckt
+Wien,2022-05-20 00:00:00,14.33,Überwiegend bewölkt
+Wien,2022-05-20 03:00:00,14.12,Bedeckt
+Wien,2022-05-20 06:00:00,17.87,Bedeckt
+Wien,2022-05-20 09:00:00,25.13,Überwiegend bewölkt
+Wien,2022-05-20 12:00:00,29.35,Überwiegend bewölkt
+Wien,2022-05-20 15:00:00,25.89,Leichter Regen
+Wien,2022-05-20 18:00:00,23.89,Mäßig bewölkt
+Wien,2022-05-20 21:00:00,21.15,Bedeckt
+Wien,2022-05-21 00:00:00,17.96,Leichter Regen
+Wien,2022-05-21 03:00:00,17.69,Leichter Regen
+Wien,2022-05-21 06:00:00,20.19,Leichter Regen

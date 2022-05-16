@@ -1,4 +1,8 @@
-# https://openweathermap.org/
+# Request weather forecast for the next 5 days from a weather api (https://openweathermap.org/forecast5).
+# User can choose city and language (en or de)
+# Data (City,Time,Temperature,Condition) is appended into a .txt-file (filenname: weather.txt)
+
+
 import requests
 import os
 
@@ -12,7 +16,7 @@ def get_weather(city,lang,metric="metric",api_key=api_key):
   # print(response)
   response_city = response["city"]["name"]
   forecast = response["list"]
-  with open("weather","a") as file: 
+  with open("weather.txt","a") as file: 
     for weather in forecast:
       # extract from response: city, date, temperature, sky condition 
       file.write(f'{response_city},{weather["dt_txt"]},{weather["main"]["temp"]},{weather["weather"][0]["description"]}\n')
@@ -23,5 +27,5 @@ def main_weather():
   lang = input("language (en/de): ")
   get_weather(city, lang)
 
-main_weather()
+# main_weather()
 
