@@ -8,7 +8,7 @@
 #import rest_apis_in_python
 #import weather_forecast_api
 #import create_rest_api.py
-import grammer_correction_api
+import grammar_correction_api
 """
 
 file = input("Choose file: \n
