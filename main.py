@@ -10,7 +10,7 @@ from weather_forecast_api import main_weather
 # import grammar_correction_api
 
 
-file = input("Choose file.\n\nPress a: Scrape ecommerce store using Selenium \n\nPress b: Scrape realtime currency (JPY,USD) using BeautifulSoup\n\nPress c: Use News API to request news articles from news sources and blogs across the web.User can choose topic, time period and language (de/en)\n\nPress d: Request weather forecast for the next 5 days using a weather api (https://openweathermap.org/forecast5).User can choose city and language (en/de).Data(city,time,temperature,sky condition) is append into a .txt-file (filenname: weather.txt)\n\n>> your choice: ")
+file = input("Choose file.\n\nPress a: Scrape an e-commerce store using Selenium \n\nPress b: Scrape realtime currency (JPY,USD) using BeautifulSoup\n\nPress c: Use a news api to request news articles from news sources and blogs across the web. User can choose topic, time period and language (de/en)\n\nPress d: Request weather forecast for the next 5 days using a weather api (https://openweathermap.org/forecast5).User can choose city and language (en/de).Data(city,time,temperature,sky condition) is append into a .txt-file (filenname: weather.txt)\n\n>> your choice: ")
 
              
 if file == "a": 
