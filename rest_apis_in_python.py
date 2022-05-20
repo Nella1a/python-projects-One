@@ -55,7 +55,7 @@ def filter_articles(articles):
 
 def main_news():
 # get user choice 
-  topic = input("Choose news topic (space / austria / united states /):  ")
+  topic = input("Choose news topic ( eg space / austria / united states /):  ")
   from_date = input("Choose start date in yyy-mm-dd format: ")
   to_date = input("Choose to date in yyy-mm-dd format: ") 
   language = input("Choose language (en/de): ")
@@ -67,5 +67,5 @@ def main_news():
     print("Period of dates not eligible.\nYou can only search articles up to one month in the past ")
   
 
-main_news()
+# main_news()
 
